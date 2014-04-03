@@ -21,8 +21,10 @@ $white: #fefefe;
 
 $blue: #3E94E0;
 $turquoise: #29bb9c;
+$wisteria: #9a54b8;
 
 $main-color: $turquoise;
+$secondary-color: $wisteria;
 
 $body-text-color: $black;
 $body-background-color: $white;
@@ -53,7 +55,7 @@ html {
 .container {
   margin: 0 auto;
   max-width: 48em;
-  width: 90%;
+  width: 100%;
 }
 
 body {
@@ -76,6 +78,10 @@ a {
 header {
   width: 100%;
   text-align: center;
+  margin-bottom: em(40px);
+  @include breakpoint(small) {
+    margin-bottom: em(10px);
+  }
 }
 .title {
   height: 80px;
@@ -92,7 +98,20 @@ header {
 
 .row {
   margin-top: em(40px);
+  @include breakpoint(small) {
+    padding: em(20px);
+  }
 }
+
 img {
   max-width: 100%;
+}
+.meta {
+  padding-left: em(10px);
+  font-size: 50%;
+  opacity: .7;
+  font-style: italic;
+}
+.divider {
+  // padding: 0 em(6px);
 }

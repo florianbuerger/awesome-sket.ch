@@ -1,0 +1,22 @@
+{
+  "plugins": [{
+    "name": "Sketch Measure",
+    "url": "https://github.com/utom/sketch-measure",
+    "author": {
+      "name": "utom",
+      "url": "https://github.com/utom"
+    },
+    "image": "assets/img/sketch-measure.png",
+    "overview": "Measure tools for sketch.app",
+    "description": "Generate specifications for layers including size, color and font."
+  }, {
+    "name": "Lorem-Ipsum",
+    "url": "https://github.com/brandonbeecroft/Lorem-Ipsum-Plugin-for-Sketch",
+    "author": {
+      "name": "Brandon Beecroft",
+      "url": "https://github.com/brandonbeecroft"
+    },
+    "image": "",
+    "overview": "This is a plugin for quickly creating Lorem Ipsum text in Sketch."
+  }]
+}

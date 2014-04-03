@@ -1,27 +1,34 @@
---- title: "Intro" ---
+---
+title: "Awesome Sketch Plugins"
+---
 
-<section class="row clearfix">
-  <div class="column third">
-    <img src="{{assets}}/img/sketch-measure.png" alt="Sketch Measure">
-  </div>
-  <div class="column two-third">
-    <h2>Sketch Measure</h2>
-    <p>Create specs for your design with just one click.</p>
-    <p class="source"><a href="https://github.com/utom/sketch-measure">View on GitHub</a>
-    </p>
-  </div>
+{{#each plugins }}
+
+<section class="row clearfix sketch-plugin">
+
+{{#if image compare=""}}
+
+<div class="column third">
+<img src="{{image}}" alt="{{name}}">
+</div>
+<div class="column two-third">
+  <h2>{{name}}<span class="meta"> by <a href="{{author.url}}">{{author.name}}</a><span class="divider">&rarr;</span><a href="{{url}}">visit website</a></span></h2>
+  <p class="short-description">{{overview}}</p>
+  <p class="long-description">{{description}}</p>
+  </p>
+</div>
+
+{{else}}
+
+<div class="column full">
+  <h2>{{name}}<span class="meta"> by <a href="{{author.url}}">{{author.name}}</a><span class="divider">&rarr;</span><a href="{{url}}">visit website</a></span></h2>
+  <p class="short-description">{{overview}}</p>
+  <p class="long-description">{{description}}</p>
+  </p>
+</div>
+
+{{/if}}
+
 </section>
 
-<section class="row clearfix">
-  <div class="column third">
-  </div>
-  <div class="column two-third">
-    <h2>DrawingKit</h2>
-    <p>DrawingKit is a collection of commands for use in Sketch.</p>
-    <p>
-      Nearly all scripts in this collection include a ‘User Variables’ section, where the default settings may be changed to suit your own preferences. (No coding skill needed!) In addition, many commands include options that are accessible by holding a modifier key (e.g., Option) when the command is run within Sketch. These options and their modifier keys are typically indicated in Sketch's mini-toolbar when the command is run.</p>
-    <p class="source">
-      <a href="https://github.com/brandonbeecroft/Lorem-Ipsum-Plugin-for-Sketch">View on GitHub</a>
-    </p>
-  </div>
-</section>
+{{/each}}
