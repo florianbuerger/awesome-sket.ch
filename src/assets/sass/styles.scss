@@ -3,6 +3,7 @@
 @import "breakpoints";
 @import "functions";
 @import "grid";
+@import "footer";
 
 // ----------
 // FONTS
@@ -36,6 +37,9 @@ $link-color: $main-color;
 // SITE
 // ----------
 
+$header-height: em(120px);
+$footer-height: em(180px);
+
 *, *:before, *:after {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -44,12 +48,15 @@ $link-color: $main-color;
 
 html {
   font-size: 100%;
+  height: 100%;
 }
 @include breakpoint(medium) {
   font-size: 112%;
+  line-height: 112%;
 }
 @include breakpoint(large) {
   font-size: 120%;
+  line-height: 120%;
 }
 
 .container {
@@ -60,9 +67,15 @@ html {
 
 body {
   margin: 0;
+  height: 100%;
   font-family: $sans-serif;
   color: $body-text-color;
   background-color: $body-background-color;
+}
+.main {
+  display: table;
+  height: 100%;
+  width: 100%;
 }
 
 h1,h2 {
@@ -76,21 +89,25 @@ a {
 }
 
 header {
+  opacity: .8;
   width: 100%;
   text-align: center;
   margin-bottom: em(40px);
+  height: $header-height;
+  background-color: $title-background-color;
+  color: $white;
+  padding: 10px;
+  a {
+    color: inherit;
+    border-color: $white;
+  }
   @include breakpoint(small) {
     margin-bottom: em(10px);
   }
 }
 .title {
-  height: 80px;
-  line-height: 80px;
-  background-color: $title-background-color;
-  color: $white;
   margin: 0;
   font-size: em(40pt);
-  vertical-align: center;
   @include breakpoint(small) {
     font-size: em(44px);
   }
@@ -113,5 +130,27 @@ img {
   font-style: italic;
 }
 .divider {
-  // padding: 0 em(6px);
+  padding: 0 em(6px);
+}
+
+.colophon {
+  opacity: .8;
+  background-color: $main-color;
+  color: $white;
+  a {
+    border-color: $white;
+    color: inherit;
+  }
+  display: table-row;
+  // ul {
+  //   list-style-type: none;
+  //   display: inline-block;
+  //   margin: 0;
+  //   padding: 0;
+  // }
+}
+
+footer {
+  padding: em(10px) em(40px);
+  line-height: 1.5em;
 }

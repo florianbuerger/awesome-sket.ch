@@ -1,92 +1,21 @@
-.footer-2 {
-  $footer-background: desaturate(darken($base-accent-color, 20), 30);
-  $footer-color: white;
-  $footer-link-color: transparentize($footer-color, .6);
-  $footer-disclaimer-color: transparentize($footer-color, .6);
-
-  background: $footer-background;
-  padding: $base-line-height;
-  width: 100%;
-  min-height: 4em;
-
-  .footer-logo {
-    margin-right: 1em;
-    margin-bottom: 1em;
-
-    @include media($large-screen) {
-      float: left;
-      margin-bottom: 0;
+@mixin sticky-footer($footer-height, $wrapper-selector: unquote("#wrapper"), $container-selector: unquote("#container"), $footer-selector: unquote("#footer")) {
+  html, body {
+    height: 100%;
+  }
+  body {
+    margin: 0px;
+    padding: 0px;
+  }
+  #{$wrapper-selector} {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -$footer-height;
+    #{$container-selector} {
+      padding: 0 0 $footer-height 0;
     }
   }
-
-  .footer-logo img {
-    height: 1.6em;
-  }
-
-  ul {
-    margin-bottom: 1em;
-    @include media($large-screen) {
-      float: left;
-      margin-left: 1em;
-      margin-bottom: 0;
-    }
-  }
-
-  ul li {
-    padding-right: 1em;
-    font-weight: 800;
-
-    @include media($large-screen) {
-      display: inline;
-      text-align: left;
-    }
-  }
-
-  ul li a {
-    color: $footer-link-color;
-
-    &:hover {
-      color: transparentize($footer-color, 0);
-    }
-  }
-
-  .footer-secondary-links {
-    @include media($large-screen) {
-      float: right;
-    }
-
-    li {
-      font-size: .8em;
-      font-weight: 400;
-    }
-
-    ul.footer-social {
-      margin-top: 1em;
-
-      @include media($large-screen) {
-        float: right;
-        margin-top: 0;
-      }
-
-      li {
-        float: left;
-        font-size: 1em;
-        padding-right: .7em;
-
-        &:last-child {
-          padding-right: 0;
-        }
-      }
-
-      img {
-        opacity: .7;
-        height: 1.6em;
-        padding: 1px;
-
-        &:hover {
-          opacity: 1;
-        }
-      }
-    }
+  #{$footer-selector} {
+    height: $footer-height;
   }
 }
