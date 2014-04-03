@@ -29,12 +29,12 @@ module.exports = function(grunt) {
 
     watch: {
       assemble: {
-        files: ['<%= config.src %>/{content,data,templates,partials}/{,*/}*.{md,hbs,yml}'],
+        files: ['<%= config.src %>/{content,data,templates,partials}/{,*/}*.{md,hbs,yml,json}'],
         tasks: ['newer:assemble']
       },
       sass: {
         files: ['<%= config.src %>/assets/sass/**/{,*/}*.scss'],
-        tasks: ['sass']
+        tasks: ['newer:sass']
       },
       livereload: {
         options: {
@@ -75,6 +75,10 @@ module.exports = function(grunt) {
           data: '<%= config.src %>/data/*.{json,yml}',
           partials: '<%= config.src %>/templates/partials/*.hbs',
           plugins: ['assemble-contrib-sitemap'],
+          minify: {
+            removeAttributeQuotes: false,
+            removeEmptyAttributes: true,
+          }
         },
         files: {
           '<%= config.dist %>/': ['<%= config.src %>/templates/pages/*.hbs']
@@ -97,9 +101,23 @@ module.exports = function(grunt) {
       }
     },
 
+    imagemin: {
+      static: {
+        options: {
+          optimizationLevel: 3
+        },
+        files: [{
+          expand: true,
+          cwd: '<%= config.src %>/assets/img',
+          src: ['**/*.{png,jpg,gif}'],
+          dest: '<%= config.dist %>/assets/img'
+        }]
+      }
+    },
+
     // Before generating any new files,
     // remove any previously-created files.
-    clean: ['<%= config.dist %>/**/*.{html,xml}']
+    clean: ['<%= config.dist %>/**/*.{html,xml,css}']
 
   });
 
@@ -109,18 +127,21 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-sass');
   grunt.loadNpmTasks('grunt-newer');
+  grunt.loadNpmTasks('grunt-contrib-imagemin');
 
   grunt.registerTask('server', [
     'clean',
     'assemble',
+    'sass',
     'connect:livereload',
     'watch'
   ]);
 
   grunt.registerTask('build', [
     'clean',
+    'sass',
     'assemble',
-    'sass'
+    'imagemin'
   ]);
 
   grunt.registerTask('default', [
