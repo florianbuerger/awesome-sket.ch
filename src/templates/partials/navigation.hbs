@@ -1,0 +1,17 @@
+---
+component: navigation
+---
+<section class="navigation">
+  <header>
+    <nav>
+      <ul>
+        <li class="navigation__item"><a {{#is basename "index" }} class="active"{{/is}}href="index.html">Intro</a><span class="sepi">/</span></li>
+        <li class="navigation__item"><a {{#is basename "philosophy" }} class="active"{{/is}}href="philosophy.html">Philosophy</a><span class="sepi">/</span></li>
+        <li class="navigation__item"><a {{#is basename "work" }} class="active"{{/is}}href="work.html">Work</a><span class="sepi">/</span></li>
+        <li class="navigation__item"><a {{#is basename "contact" }} class="active"{{/is}}href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    {{#isnt basename "index" }}<a href="/" class="logo">keslcod</a>{{/isnt}}
+  </header>
+</section>

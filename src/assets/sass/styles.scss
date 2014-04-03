@@ -1,0 +1,98 @@
+@import "responsive-typography";
+@import "retina";
+@import "breakpoints";
+@import "functions";
+@import "grid";
+
+// ----------
+// FONTS
+// ----------
+
+$sans-serif: "Open Sans", "Comic Sans", "Helvetica Neue", Helvetica, sans-serif;
+$logo-font: $sans-serif;
+$headline-font: "Open Sans Condensed", "Helvetica Neue", Helvetica, sans-serif;
+
+// ----------
+// COLORS
+// ----------
+
+$black: #333;
+$white: #fefefe;
+
+$blue: #3E94E0;
+$turquoise: #29bb9c;
+
+$main-color: $turquoise;
+
+$body-text-color: $black;
+$body-background-color: $white;
+
+$title-background-color: $main-color;
+$link-color: $main-color;
+
+// ----------
+// SITE
+// ----------
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+}
+@include breakpoint(medium) {
+  font-size: 112%;
+}
+@include breakpoint(large) {
+  font-size: 120%;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 48em;
+  width: 90%;
+}
+
+body {
+  margin: 0;
+  font-family: $sans-serif;
+  color: $body-text-color;
+  background-color: $body-background-color;
+}
+
+h1,h2 {
+  font-family: $headline-font;
+}
+
+a {
+  text-decoration: none;
+  border-bottom: 1px solid $link-color;;
+  color: $link-color;
+}
+
+header {
+  width: 100%;
+  text-align: center;
+}
+.title {
+  height: 80px;
+  line-height: 80px;
+  background-color: $title-background-color;
+  color: $white;
+  margin: 0;
+  font-size: em(40pt);
+  vertical-align: center;
+  @include breakpoint(small) {
+    font-size: em(44px);
+  }
+}
+
+.row {
+  margin-top: em(40px);
+}
+img {
+  max-width: 100%;
+}
