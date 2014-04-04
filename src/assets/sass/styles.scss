@@ -1,10 +1,8 @@
 @import "normalize";
 @import "responsive-typography";
-@import "retina";
 @import "breakpoints";
 @import "functions";
 @import "grid";
-@import "footer";
 
 // ----------
 // FONTS
@@ -13,6 +11,9 @@
 $sans-serif: "Open Sans", "Comic Sans", "Helvetica Neue", Helvetica, sans-serif;
 $logo-font: $sans-serif;
 $headline-font: "Open Sans Condensed", "Helvetica Neue", Helvetica, sans-serif;
+
+$site-margin-mobile: 20px;
+$site-margin-large: 80px;
 
 // ----------
 // COLORS
@@ -95,24 +96,24 @@ header {
   opacity: .8;
   width: 100%;
   text-align: center;
-  margin-bottom: em(40px);
+  margin: .2em;
   display: table-row;
   background-color: $title-background-color;
   color: $white;
-  padding: 10px;
   a {
     color: inherit;
     border-color: $white;
   }
-  @include breakpoint(small) {
-    margin-bottom: em(10px);
+  p {
+    margin-top: 0;
   }
 }
 .title {
-  margin: 0;
+  margin: .2em;
   font-size: em(40pt);
   @include breakpoint(small) {
-    font-size: em(44px);
+    font-size: em(28pt);
+    margin: 0;
   }
 }
 
@@ -124,9 +125,6 @@ header {
 .row {
   margin-top: em(80px);
   margin-bottom: em(80px);
-  // @include breakpoint(small) {
-  //   padding: em(20px);
-  // }
   h1, h2, h3, h4 {
     margin-top: 0;
   }
@@ -169,6 +167,9 @@ img {
 }
 
 footer {
-  padding: em(10px) em(40px);
+  margin: $site-margin-large/2 $site-margin-large;
   line-height: 1.5em;
+  @include breakpoint(small) {
+    margin: $site-margin-mobile/2 0;
+  }
 }
