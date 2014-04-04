@@ -121,6 +121,9 @@ header {
   @include breakpoint(small) {
     padding: em(20px);
   }
+  h2 {
+    margin-top: 0;
+  }
 }
 
 img {
