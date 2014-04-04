@@ -1,5 +1,15 @@
 {
   "plugins": [{
+    "name": "Sketch Commands",
+    "url": "https://github.com/bomberstudios/sketch-commands",
+    "author": {
+      "name": "Ale Muñoz",
+      "url": "http://bomberstudios.com"
+    },
+    "image": "https://pbs.twimg.com/profile_images/378800000720509489/49dc2785d73beeec036ba5aadb4cd5e8.jpeg",
+    "overview": "A collection of script commands and keyboard shortcuts for Sketch.",
+    "description": "It's a port of Ale Muñoz's [Orange Commands for Fireworks](http://orangecommands.com) for Bohemian Coding’s [Sketch.app](http://bohemiancoding.com/sketch/)."
+  }, {
     "name": "Measure",
     "url": "https://github.com/utom/sketch-measure",
     "author": {
