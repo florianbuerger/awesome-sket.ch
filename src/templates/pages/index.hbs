@@ -1,35 +1,67 @@
----
-title: "Awesome Sketch Plugins"
----
-{{#each plugins }}
+--- title: "Awesome Sketch Plugins" ---
 
-<section class="row clearfix sketch-plugin">
+{{#each plugins }}
 
 {{#if image compare=""}}
 
-<div class="column third">
-<div class="image-wrapper">
-  <img src="{{image}}" alt="{{name}}">
-</div>
-</div>
-<div class="column two-thirds">
-  <h2>{{name}}<span class="meta"> by <a href="{{author.url}}">{{author.name}}</a><span class="divider">&rarr;</span><a href="{{url}}">visit website</a></span></h2>
-  <p class="short-description">{{overview}}</p>
-  <p class="long-description">{{description}}</p>
-  </p>
-</div>
+{{#is expand true}}
+
+<section class="row clearfix sketch-plugin multi-row">
+  <div class="column third flow-opposite">
+    <div class="image-wrapper">
+      <img src="{{image}}" alt="{{name}}">
+    </div>
+  </div>
+  <div class="column two-thirds">
+    <h1>{{name}}
+      <span class="meta">by <a href="{{author.url}}">{{author.name}}</a>
+        <span class="divider">&rarr;</span><a href="{{url}}">visit website</a>
+      </span>
+    </h1>
+    {{#markdown}}{{overview}}{{/markdown}}
+  </div>
+</section>
+<section class="row clearfix sketch-plugin expanded-row">
+  <div class="column full">{{#markdown}}{{description}}{{/markdown}}</div>
+</section>
 
 {{else}}
 
-<div class="column full">
-  <h2>{{name}}<span class="meta"> by <a href="{{author.url}}">{{author.name}}</a><span class="divider">&rarr;</span><a href="{{url}}">visit website</a></span></h2>
-  <p class="short-description">{{overview}}</p>
-  <p class="long-description">{{description}}</p>
-  </p>
-</div>
+<section class="row clearfix sketch-plugin">
+  <div class="column third flow-opposite">
+    <div class="image-wrapper">
+      <img src="{{image}}" alt="{{name}}">
+    </div>
+  </div>
+  <div class="column two-thirds">
+    <h1>{{name}}
+      <span class="meta">by <a href="{{author.url}}">{{author.name}}</a>
+        <span class="divider">&rarr;</span><a href="{{url}}">visit website</a>
+      </span>
+    </h1>
+    {{#markdown}}{{overview}}{{/markdown}}
+    {{#markdown}}{{description}}{{/markdown}}
+    </p>
+  </div>
+</section>
+
+{{/is}}
+
+{{else}}
+
+<section class="row clearfix sketch-plugin">
+  <div class="column full">
+    <h1>{{name}}
+      <span class="meta">by <a href="{{author.url}}">{{author.name}}</a>
+        <span class="divider">&rarr;</span><a href="{{url}}">visit website</a>
+      </span>
+    </h1>
+    <p class="short-description">{{overview}}</p>
+    <p class="long-description">{{#markdown}}{{description}}{{/markdown}}</p>
+    </p>
+  </div>
+</section>
 
 {{/if}}
-
-</section>
 
 {{/each}}

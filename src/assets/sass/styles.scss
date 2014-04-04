@@ -64,7 +64,7 @@ html {
 
 .container {
   margin: 0 auto;
-  max-width: 48em;
+  max-width: 55em;
   width: 100%;
 }
 
@@ -116,25 +116,40 @@ header {
   }
 }
 
-.row {
-  margin-top: em(40px);
+.column {
   @include breakpoint(small) {
-    padding: em(20px);
+    margin: em(40px) em(20px);
   }
-  h2 {
+}
+.row {
+  margin-top: em(80px);
+  margin-bottom: em(80px);
+  // @include breakpoint(small) {
+  //   padding: em(20px);
+  // }
+  h1, h2, h3, h4 {
     margin-top: 0;
   }
+}
+.multi-row {
+  @extend .row;
+  margin-bottom: em(10px);
+}
+.expanded-row {
+  @extend .row;
+  margin-top: 0;
 }
 
 img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  padding-top: em(10px);
   max-width: 100%;
 }
 .meta {
   padding-left: em(10px);
-  font-size: 50%;
+  font-size: 40%;
   opacity: .7;
   font-style: italic;
 }
