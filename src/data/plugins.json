@@ -1,22 +1,32 @@
 {
   "plugins": [{
-    "name": "Sketch Measure",
-    "url": "https://github.com/utom/sketch-measure",
-    "author": {
-      "name": "utom",
-      "url": "https://github.com/utom"
-    },
-    "image": "assets/img/sketch-measure.png",
-    "overview": "Measure tools for sketch.app",
-    "description": "Generate specifications for layers including size, color and font."
-  }, {
-    "name": "Lorem-Ipsum",
-    "url": "https://github.com/brandonbeecroft/Lorem-Ipsum-Plugin-for-Sketch",
-    "author": {
-      "name": "Brandon Beecroft",
-      "url": "https://github.com/brandonbeecroft"
-    },
-    "image": "",
-    "overview": "This is a plugin for quickly creating Lorem Ipsum text in Sketch."
-  }]
+      "name": "Sketch Measure",
+      "url": "https://github.com/utom/sketch-measure",
+      "author": {
+        "name": "utom",
+        "url": "https://github.com/utom"
+      },
+      "image": "assets/img/sketch-measure.png",
+      "overview": "Measure tools for sketch.app",
+      "description": "Generate specifications for layers including size, color and font."
+    }, {
+      "name": "Lorem-Ipsum",
+      "url": "https://github.com/brandonbeecroft/Lorem-Ipsum-Plugin-for-Sketch",
+      "author": {
+        "name": "Brandon Beecroft",
+        "url": "https://github.com/brandonbeecroft"
+      },
+      "image": "",
+      "overview": "This is a plugin for quickly creating Lorem Ipsum text in Sketch."
+    }, {
+      "name": "Sketch Framer",
+      "url": "https://github.com/bomberstudios/sketch-framer",
+      "author": {
+        "name": "Ale Muñoz",
+        "url": "http://bomberstudios.com"
+      },
+      "image": "https://github.com/bomberstudios/sketch-framer/raw/master/sketch-framer-logo.png?raw=true",
+      "overview": "Export documents into [FramerJS](http://framerjs.com/) to make interactive prototypes.",
+      "description": "Create your layered Sketch file, and save it somewhere. Run the plugin from the plugins menu. The framer prototype will be generated in a folder right next to where the Sketch file is saved"
+    }]
 }
