@@ -48,6 +48,8 @@ $footer-height: em(180px);
 }
 
 html {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
   font-size: 100%;
   height: 100%;
 }
