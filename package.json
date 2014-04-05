@@ -1,18 +1,18 @@
 {
-  "name": "keslcod",
-  "description": "New keslcod website.",
-  "version": "0.1.0",
-  "homepage": "https://github.com/florianbuerger/keslcod",
+  "name": "Awesome Sketch Plugins",
+  "description": "A collection of useful plugins for Sketch.app",
+  "version": "1.0.0",
+  "homepage": "https://awesome-sket.ch",
   "author": {
     "name": "Florian Buerger",
     "url": "http://github.com/florianbuerger/"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/florianbuerger/keslcod.git"
+    "url": "git://github.com/florianbuerger/awesome-sketch"
   },
   "bugs": {
-    "url": "https://github.com/florianbuerger/keslcod/issues"
+    "url": "https://github.com/florianbuerger/awesome-sketch/issues"
   },
   "engines": {
     "node": ">=0.8"
@@ -28,7 +28,6 @@
     "grunt-contrib-watch": "~0.6.1",
     "load-grunt-tasks": "~0.4.0",
     "time-grunt": "~0.3.1",
-    "assemble-contrib-sitemap": "*",
     "grunt-newer": "^0.7.0",
     "grunt-contrib-sass": "^0.7.3",
     "grunt-contrib-imagemin": "^0.6.1",
@@ -38,7 +37,7 @@
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/florianbuerger/keslcod/blob/master/LICENSE-MIT"
+      "url": "https://github.com/florianbuerger/awesome-sketch/blob/master/LICENSE-MIT"
     }
   ],
   "keywords": [
