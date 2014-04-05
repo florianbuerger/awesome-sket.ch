@@ -74,7 +74,6 @@ module.exports = function(grunt) {
           layout: '<%= config.src %>/templates/layouts/default.hbs',
           data: '<%= config.src %>/data/*.{json,yml}',
           partials: '<%= config.src %>/templates/partials/*.hbs',
-          plugins: ['assemble-contrib-sitemap'],
           minify: {
             removeAttributeQuotes: false,
             removeEmptyAttributes: true,
