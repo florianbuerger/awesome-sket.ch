@@ -1,99 +1,121 @@
 {
-    "plugins": [{
-        "name": "Auto Export Assets to Xcode",
-        "url": "https://github.com/mdznr/Sketch-Xcode",
-        "author": {
-            "name": "Matt Zanchelli",
-            "url": "http://mdznr.com"
-        },
-        "overview": "Automatically Exporting Assets from Sketch into Xcode.",
-        "description": "Not a sketch plugin at all, but awesome for Cocoa developers."
-    }, {
-        "name": "Content Generator",
-        "url": "https://github.com/timuric/Content-generator-sketch-plugin",
-        "author": {
-            "name": "Timur Carpeev",
-            "url": "http://www.carpeev.com/"
-        },
-        "image": "https://raw.githubusercontent.com/timuric/Content-generator-for-sketch-app/master/tutorial/userpics.gif",
-        "overview": "Sketch generator allows you quickly create dummy data such as avatars, names, geo location data etc.",
-        "description": "#### Upcoming features\n* Shortcut for repeating last action\n* More types of data\n* Fetch content directly from different online sources\n* Installation and customization panel\n* Easier extensibility\n* Sketch 2.x support"
-    }, {
-        "name": "Android Assets",
-        "url": "https://github.com/zmalltalker/sketch-android-assets",
-        "author": {
-            "name": "Marius Mathiesen",
-            "url": "http://shortcut.no/"
-        },
-        "image": "",
-        "overview": "Generate Android assets in Sketch."
-    }, {
-        "name": "Sketch Commands",
-        "url": "https://github.com/bomberstudios/sketch-commands",
-        "author": {
-            "name": "Ale Muñoz",
-            "url": "http://bomberstudios.com"
-        },
-        "image": "https://pbs.twimg.com/profile_images/378800000720509489/49dc2785d73beeec036ba5aadb4cd5e8.jpeg",
-        "overview": "A collection of script commands and keyboard shortcuts for Sketch.",
-        "description": "It's a port of Ale Muñoz's [Orange Commands for Fireworks](http://orangecommands.com) for Bohemian Coding’s [Sketch.app](http://bohemiancoding.com/sketch/)."
-    }, {
-        "name": "Measure",
-        "url": "https://github.com/utom/sketch-measure",
-        "author": {
-            "name": "utom",
-            "url": "https://github.com/utom"
-        },
-        "image": "assets/img/sketch-measure.png",
-        "overview": "Measure tools for sketch.app",
-        "description": "Generate specifications for layers including size, color and font."
-    }, {
-        "name": "Framer",
-        "url": "https://github.com/bomberstudios/sketch-framer",
-        "author": {
-            "name": "Ale Muñoz",
-            "url": "http://bomberstudios.com"
-        },
-        "image": "https://github.com/bomberstudios/sketch-framer/raw/master/sketch-framer-logo.png?raw=true",
-        "overview": "Export documents into [FramerJS](http://framerjs.com/) to make interactive prototypes.",
-        "description": "Create your layered Sketch file, and save it somewhere. Run the plugin from the plugins menu. The framer prototype will be generated in a folder right next to where the Sketch file is saved"
-    }, {
-        "name": "Dynamic Button",
-        "url": "https://github.com/ddwht/sketch-dynamic-button",
-        "author": {
-            "name": "ddwht",
-            "url": "https://github.com/ddwht"
-        },
-        "image": "",
-        "overview": "Dynamic button plug-in for [Sketch.app](http://bohemiancoding.com/sketch/) allows to create buttons with fixed paddings no matter what text you add.",
-        "description": "####Demo\nWatch [on Youtube](https://www.youtube.com/watch?v=ZJCYUCU7YxQ) or read a [tutorial on Medium](https://medium.com/p/946638e73398)"
-    }, {
-        "name": "Generator",
-        "url": "https://github.com/bomberstudios/sketch-generator",
-        "author": {
-            "name": "Ale Muñoz",
-            "url": "http://bomberstudios.com"
-        },
-        "image": "",
-        "overview": "This command is a recreation for Sketch of the Photoshop Generator functionality introduced by Adobe on Photoshop CC (see [this blog post on Adobe](http://blogs.adobe.com/photoshopdotcom/2013/09/introducing-adobe-generator-for-photoshop-cc.html) for more information).",
-        "description": "####What is this?\nIf you've ever had to prepare a screen design for production use, you know how painful and time consuming it is: creating slices, naming them, making sure they're properly aligned, painstakingly exporting assets...\n\nWell, it's 2013, and slicing images is so last century. Computers were invented to let us work less and spend more time watching kitten videos, so get ready to reclaim some of your precious time back.\n\nSketch Generator will let you export all your assets, no matter how complex your design, with a single keystroke. Forget about slicing, exporting, or moving files manually: welcome to the future, where everything that can be made automatically is made automatically :)"
-    }, {
-        "name": "Skrx",
-        "url": "https://github.com/rxlabz/skrx",
-        "author": {
-            "name": "rxlabz",
-            "url": "http://www.rxlabz.com/"
-        },
-        "image": "",
-        "overview": "Skrx ( ~skreecks ) exports a selection of elements (for now only the rectangles) to Apache Flex MXML or FXG description, and copy it to clipboard."
-    }, {
-        "name": "Lorem-Ipsum",
-        "url": "https://github.com/brandonbeecroft/Lorem-Ipsum-Plugin-for-Sketch",
-        "author": {
-            "name": "Brandon Beecroft",
-            "url": "https://github.com/brandonbeecroft"
-        },
-        "image": "",
-        "overview": "This is a plugin for quickly creating Lorem Ipsum text in Sketch."
-    }]
+  "plugins": [
+    {
+      "name": "Day Player",
+      "url": "https://github.com/tylergaw/day-player",
+      "author": {
+        "name": "Tyler Gaw",
+        "url": "http://www.tylergaw.com"
+      },
+	  "image": "https://camo.githubusercontent.com/8eef5e99da1d046facd2cb0f696d0b792dd54b9f/687474703a2f2f662e636c2e6c792f6974656d732f30513178326c306b3337314331373358335530672f646179706c617965722d73637265656e732e6a7067",
+      "overview": "A collection of Sketch Plugins for creating placeholder images.",
+      "description": "#### What Does It Do?\nIt allows you to insert a customized placeholder image into any Sketch document from a number of different placeholder image services.\n* [placehold.it](http://placehold.it)\n* [lorempixel.com](http://lorempixel.com)\n* [fillmurray.com](http://fillmurray.com)\n* [placecage.com](http://placecage.com)"
+    },
+    {
+      "name": "Auto Export Assets to Xcode",
+      "url": "https://github.com/mdznr/Sketch-Xcode",
+      "author": {
+        "name": "Matt Zanchelli",
+        "url": "http://mdznr.com"
+      },
+      "overview": "Automatically Exporting Assets from Sketch into Xcode.",
+      "description": "Not a sketch plugin at all, but awesome for Cocoa developers."
+    },
+    {
+      "name": "Content Generator",
+      "url": "https://github.com/timuric/Content-generator-sketch-plugin",
+      "author": {
+        "name": "Timur Carpeev",
+        "url": "http://www.carpeev.com/"
+      },
+      "image": "https://raw.githubusercontent.com/timuric/Content-generator-for-sketch-app/master/tutorial/userpics.gif",
+      "overview": "Sketch generator allows you quickly create dummy data such as avatars, names, geo location data etc.",
+      "description": "#### Upcoming features\n* Shortcut for repeating last action\n* More types of data\n* Fetch content directly from different online sources\n* Installation and customization panel\n* Easier extensibility\n* Sketch 2.x support"
+    },
+    {
+      "name": "Android Assets",
+      "url": "https://github.com/zmalltalker/sketch-android-assets",
+      "author": {
+        "name": "Marius Mathiesen",
+        "url": "http://shortcut.no/"
+      },
+      "image": "",
+      "overview": "Generate Android assets in Sketch."
+    },
+    {
+      "name": "Sketch Commands",
+      "url": "https://github.com/bomberstudios/sketch-commands",
+      "author": {
+        "name": "Ale Muñoz",
+        "url": "http://bomberstudios.com"
+      },
+      "image": "https://pbs.twimg.com/profile_images/378800000720509489/49dc2785d73beeec036ba5aadb4cd5e8.jpeg",
+      "overview": "A collection of script commands and keyboard shortcuts for Sketch.",
+      "description": "It's a port of Ale Muñoz's [Orange Commands for Fireworks](http://orangecommands.com) for Bohemian Coding’s [Sketch.app](http://bohemiancoding.com/sketch/)."
+    },
+    {
+      "name": "Measure",
+      "url": "https://github.com/utom/sketch-measure",
+      "author": {
+        "name": "utom",
+        "url": "https://github.com/utom"
+      },
+      "image": "assets/img/sketch-measure.png",
+      "overview": "Measure tools for sketch.app",
+      "description": "Generate specifications for layers including size, color and font."
+    },
+    {
+      "name": "Framer",
+      "url": "https://github.com/bomberstudios/sketch-framer",
+      "author": {
+        "name": "Ale Muñoz",
+        "url": "http://bomberstudios.com"
+      },
+      "image": "https://github.com/bomberstudios/sketch-framer/raw/master/sketch-framer-logo.png?raw=true",
+      "overview": "Export documents into [FramerJS](http://framerjs.com/) to make interactive prototypes.",
+      "description": "Create your layered Sketch file, and save it somewhere. Run the plugin from the plugins menu. The framer prototype will be generated in a folder right next to where the Sketch file is saved"
+    },
+    {
+      "name": "Dynamic Button",
+      "url": "https://github.com/ddwht/sketch-dynamic-button",
+      "author": {
+        "name": "ddwht",
+        "url": "https://github.com/ddwht"
+      },
+      "image": "",
+      "overview": "Dynamic button plug-in for [Sketch.app](http://bohemiancoding.com/sketch/) allows to create buttons with fixed paddings no matter what text you add.",
+      "description": "####Demo\nWatch [on Youtube](https://www.youtube.com/watch?v=ZJCYUCU7YxQ) or read a [tutorial on Medium](https://medium.com/p/946638e73398)"
+    },
+    {
+      "name": "Generator",
+      "url": "https://github.com/bomberstudios/sketch-generator",
+      "author": {
+        "name": "Ale Muñoz",
+        "url": "http://bomberstudios.com"
+      },
+      "image": "",
+      "overview": "This command is a recreation for Sketch of the Photoshop Generator functionality introduced by Adobe on Photoshop CC (see [this blog post on Adobe](http://blogs.adobe.com/photoshopdotcom/2013/09/introducing-adobe-generator-for-photoshop-cc.html) for more information).",
+      "description": "####What is this?\nIf you've ever had to prepare a screen design for production use, you know how painful and time consuming it is: creating slices, naming them, making sure they're properly aligned, painstakingly exporting assets...\n\nWell, it's 2013, and slicing images is so last century. Computers were invented to let us work less and spend more time watching kitten videos, so get ready to reclaim some of your precious time back.\n\nSketch Generator will let you export all your assets, no matter how complex your design, with a single keystroke. Forget about slicing, exporting, or moving files manually: welcome to the future, where everything that can be made automatically is made automatically :)"
+    },
+    {
+      "name": "Skrx",
+      "url": "https://github.com/rxlabz/skrx",
+      "author": {
+        "name": "rxlabz",
+        "url": "http://www.rxlabz.com/"
+      },
+      "image": "",
+      "overview": "Skrx ( ~skreecks ) exports a selection of elements (for now only the rectangles) to Apache Flex MXML or FXG description, and copy it to clipboard."
+    },
+    {
+      "name": "Lorem-Ipsum",
+      "url": "https://github.com/brandonbeecroft/Lorem-Ipsum-Plugin-for-Sketch",
+      "author": {
+        "name": "Brandon Beecroft",
+        "url": "https://github.com/brandonbeecroft"
+      },
+      "image": "",
+      "overview": "This is a plugin for quickly creating Lorem Ipsum text in Sketch."
+    }
+  ]
 }
