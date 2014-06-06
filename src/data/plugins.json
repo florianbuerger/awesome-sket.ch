@@ -116,6 +116,18 @@
       },
       "image": "",
       "overview": "This is a plugin for quickly creating Lorem Ipsum text in Sketch."
+    },
+    {
+      "name": "Sketch Dockpreview",
+      "url": "https://github.com/fnky/sketch-dockpreview",
+      "author": {
+        "name": "Christian Petersen",
+        "url": "http://cbp.io"
+      },
+      "image": "",
+      "expand": true,
+      "overview": "A Sketch plugin that lets you preview your current artboard in the Dock.",
+      "description": "#### Usage\nPress `⇧⌘D` (*Shift + Command + D*) to preview your work in the dock. Artboards are required."
     }
   ]
 }
