@@ -1,5 +1,15 @@
 {
     "plugins": [{
+        "name": "AEFlowchart",
+        "url": "https://github.com/tadija/sketch-plugins",
+        "author": {
+            "name": "tadija",
+            "url": "http://markotadic.com"
+        },
+        "image": "https://raw.githubusercontent.com/tadija/sketch-plugins/master/previews/AEFlowchart.png",
+        "overview": "The idea of this plugin is to make it fast and easy to draw flowcharts in Sketch, because why not?",
+        "description": "Basically, you add some text labels, convert them to appropriate flowchart shapes and then connect them.\n> You can see it in more detail on [Vimeo](https://vimeo.com/tadija/aeflowchart)."
+    }, {
         "name": "Generate ICNS",
         "url": "http://code.nath.co/Generate_ICNS",
         "author": {
