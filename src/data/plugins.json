@@ -1,5 +1,15 @@
 {
     "plugins": [{
+        "name": "Color Contrast Analyser",
+        "url": "https://github.com/getflourish/Sketch-Color-Contrast-Analyser",
+        "author": {
+            "name": "Florian Schulz",
+            "url": "http://www.getflourish.com"
+        },
+        "image": "https://camo.githubusercontent.com/e001e8bb72bbae3f7a38eee2f04a465f42684c4b/68747470733a2f2f646c2e64726f70626f7875736572636f6e74656e742e636f6d2f752f3937343737332f5f6b656570616c6976652f536b657463682d436f6c6f722d436f6e74726173742e706e67",
+        "overview": "A Sketch plugin that calculates the color contrast of two selected layers and evaluates it against the WCAG",
+        "description": "The test may pass AAA, AA or fail because of a lack of contrast. And even when you do not need to meet those requirements, you can get a feeling for the contrast when you get used to the values. This might help you design accessible content.\n\nNote: This plugin works with solid text and fill colors. Transparency is not supported yet."
+    },{
         "name": "AEFlowchart",
         "url": "https://github.com/tadija/sketch-plugins",
         "author": {
