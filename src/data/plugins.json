@@ -1,5 +1,13 @@
 {
     "plugins": [{
+        "name": "Page Switch Plugin",
+        "url": "https://github.com/mauehara/sketch-page-switch",
+        "author": {
+            "name": "Mauricio Uehara",
+            "url": "https://github.com/mauehara/sketch-page-switch"
+        },
+        "overview": "A dummy plugin to quickly switch between pages using keyboard shortcuts."
+    },{
         "name": "Color Contrast Analyser",
         "url": "https://github.com/getflourish/Sketch-Color-Contrast-Analyser",
         "author": {
