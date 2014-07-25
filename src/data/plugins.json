@@ -1,5 +1,13 @@
 {
     "plugins": [{
+        "name": "Sync Plugins",
+        "url": "https://github.com/NathanRutzky/Sync-Plugins",
+        "author": {
+            "name": "Nathan Rutzky",
+            "url": "http://nath.co"
+        },
+        "overview": "Sync local Sketch.app plugins with their master version at GitHub."
+    },{
         "name": "Page Switch Plugin",
         "url": "https://github.com/mauehara/sketch-page-switch",
         "author": {
@@ -29,7 +37,7 @@
         "description": "Basically, you add some text labels, convert them to appropriate flowchart shapes and then connect them.\n\nYou can see it in more detail on [Vimeo](https://vimeo.com/tadija/aeflowchart)."
     }, {
         "name": "Generate ICNS",
-        "url": "http://code.nath.co/Generate_ICNS",
+        "url": "https://github.com/NathanRutzky/Generate-ICNS",
         "author": {
             "name": "Nathan Rutzky",
             "url": "http://nath.co"
