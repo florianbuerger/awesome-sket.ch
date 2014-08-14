@@ -1,5 +1,21 @@
 {
     "plugins": [{
+        "name": "Clear Styles",
+        "url": "https://github.com/NathanRutzky/Clear-Styles",
+        "author": {
+            "name": "Nathan Rutzky",
+            "url": "http://nath.co"
+        },
+        "overview": "Sketch.app plugin for clearing all layer style properties."
+    },{
+        "name": "Swap Fill & Border",
+        "url": "https://github.com/NathanRutzky/Swap-Fill-Border",
+        "author": {
+            "name": "Nathan Rutzky",
+            "url": "http://nath.co"
+        },
+        "overview": "Sketch.app plugin for swapping the fill and border color for all selected layers."
+    },{
         "name": "Sync Plugins",
         "url": "https://github.com/NathanRutzky/Sync-Plugins",
         "author": {
