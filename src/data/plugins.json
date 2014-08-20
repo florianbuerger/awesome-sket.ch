@@ -6,7 +6,7 @@
             "name": "Nathan Rutzky",
             "url": "http://nath.co"
         },
-        "overview": "Sketch.app plugin for clearing all layer style properties."
+        "overview": "Sketch.app plugin for generating animated GIFs from a sequence of artboards."
     },{
         "name": "Clear Styles",
         "url": "https://github.com/NathanRutzky/Clear-Styles",
