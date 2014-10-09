@@ -1,5 +1,15 @@
 {
     "plugins": [{
+        "name": "AEIconizer",
+        "url": "https://github.com/tadija/AEIconizer",
+        "author": {
+            "name": "tadija",
+            "url": "http://markotadic.com"
+        },
+        "image": "http://tadija.net/public/AEIconizer.png",
+        "overview": "This plugin makes your life easy when you need to resize artwork for iOS app icon.",
+        "description": "After creating icon in any square sized artboard, select any layer (or nothing if that's the only artboard on page), then run this plugin to generate all of the needed sizes for iOS.\n\nPlugin replaces all generated artboards every time it runs, but it will never delete your original artboard."
+    },{
         "name": "Generate Animated GIF",
         "url": "https://github.com/NathanRutzky/Generate-GIF",
         "author": {
@@ -51,12 +61,12 @@
         "description": "The test may pass AAA, AA or fail because of a lack of contrast. And even when you do not need to meet those requirements, you can get a feeling for the contrast when you get used to the values. This might help you design accessible content.\n\nNote: This plugin works with solid text and fill colors. Transparency is not supported yet."
     },{
         "name": "AEFlowchart",
-        "url": "https://github.com/tadija/sketch-plugins",
+        "url": "https://github.com/tadija/AEFlowchart",
         "author": {
             "name": "tadija",
             "url": "http://markotadic.com"
         },
-        "image": "https://raw.githubusercontent.com/tadija/sketch-plugins/master/previews/AEFlowchart.png",
+        "image": "http://tadija.net/public/AEFlowchart.png",
         "overview": "The idea of this plugin is to make it fast and easy to draw flowcharts in Sketch, because why not?",
         "description": "Basically, you add some text labels, convert them to appropriate flowchart shapes and then connect them.\n\nYou can see it in more detail on [Vimeo](https://vimeo.com/tadija/aeflowchart)."
     }, {
