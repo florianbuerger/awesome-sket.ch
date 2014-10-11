@@ -194,5 +194,14 @@
         },
         "image": "",
         "overview": "This is a plugin for quickly creating Lorem Ipsum text in Sketch."
+    }, {
+        "name": "Colorful Gradients",
+        "url": "https://github.com/dunckr/sketch-colorfulgradients",
+        "author": {
+            "name": "Duncan Beaton",
+            "url": "http://dunckr.com"
+        },
+        "image": "https://raw.githubusercontent.com/dunckr/sketch-colorfulgradients/master/assets/colorgradients.png",
+        "overview": "Import colorful gradients as shape fills."
     }]
 }
