@@ -194,5 +194,15 @@
         },
         "image": "",
         "overview": "This is a plugin for quickly creating Lorem Ipsum text in Sketch."
+    }, {
+        "name": "Random Colored Box Grid",
+        "url": "https://https://github.com/lrtitze/Sketch-Plugins-LRTGenerators",
+        "author": {
+            "name": "Les R. Titze",
+            "url": "https://github.com/lrtitze"
+        },
+        "image": "http://lrtitze.github.io/Sketch-Plugins-LRTGenerators/images/RandomNoiseBox.png",
+        "overview": "This plugin example creates a square group of boxes whose colors are randomly selected from three preset colors.",
+        "description": "The colors, number of squares per side and the size of the squares can be set by modifying the script.\n\n```\n// Set the number of blocks on a side and their size.\nvar blockCount = 30;\nvar blockSize = 10;\n\n// Default colors\nvar darkColor  = [MSColor colorWithRed:0.2 green:0.0 blue:0.0 alpha:1.0];\nvar midColor   = [MSColor colorWithRed:0.5 green:0.1 blue:0.1 alpha:1.0];\nvar lightColor = [MSColor colorWithRed:1.0 green:0.0 blue:0.0 alpha:1.0];\n```"
     }]
 }
