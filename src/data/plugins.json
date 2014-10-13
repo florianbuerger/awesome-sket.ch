@@ -203,5 +203,14 @@
         },
         "image": "http://lrtitze.github.io/Sketch-Plugins-LRTGenerators/images/RandomNoiseBox.png",
         "overview": "This plugin example creates a square group of boxes whose colors are randomly selected from three preset colors."
+    },{
+        "name": "Colorful Gradients",
+        "url": "https://github.com/dunckr/sketch-colorfulgradients",
+        "author": {
+            "name": "Duncan Beaton",
+            "url": "http://dunckr.com"
+        },
+        "image": "https://raw.githubusercontent.com/dunckr/sketch-colorfulgradients/master/assets/colorgradients.png",
+        "overview": "Import colorful gradients as shape fills."
     }]
 }
