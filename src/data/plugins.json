@@ -212,5 +212,15 @@
         },
         "image": "https://raw.githubusercontent.com/dunckr/sketch-colorfulgradients/master/assets/colorgradients.png",
         "overview": "Import colorful gradients as shape fills."
+    },{
+    },{
+        "name": "Subtle Patterns",
+        "url": "https://github.com/dunckr/sketch-subtlepatterns",
+        "author": {
+            "name": "Duncan Beaton",
+            "url": "http://dunckr.com"
+        },
+        "image": "https://raw.githubusercontent.com/dunckr/sketch-subtlepatterns/master/assets/example.png",
+        "overview": "Import subtle patterns as shape fills."
     }]
 }
