@@ -10,6 +10,16 @@
         "overview": "This plugin makes your life easy when you need to resize artwork for iOS app icon.",
         "description": "After creating icon in any square sized artboard, select any layer (or nothing if that's the only artboard on page), then run this plugin to generate all of the needed sizes for iOS.\n\nPlugin replaces all generated artboards every time it runs, but it will never delete your original artboard."
     },{
+        "name": "Sketch States Switch",
+        "url": "https://github.com/wentin/sketch-states-switch",
+        "author": {
+            "name": "Wenting Zhang",
+            "url": "http://wentin.co"
+        },
+        "image": "https://camo.githubusercontent.com/cb1598bd554567be294a42ee1ec25a4f5915033b/687474703a2f2f736f6369616c6265616b65722e636f6d2f6e37322f2f696f732d69636f6e2f2f3335302f2f5377697463682d694f532d49636f6e2f2f6174746163686d656e742f2f6c617267652d5377697463682d694f532d49636f6e2e706e67",
+        "overview": "A tool to save and switch states for quick demo purpose, Sketch 3.0.2+ support.",
+        "description": "Save different states of your sketch files (the visibility of layers and layergroups) and switch between those saved states when you demo it in a meeting or something. "
+    },{
         "name": "Generate Animated GIF",
         "url": "https://github.com/NathanRutzky/Generate-GIF",
         "author": {
