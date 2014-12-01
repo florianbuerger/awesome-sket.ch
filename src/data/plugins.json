@@ -232,5 +232,16 @@
         },
         "image": "https://raw.githubusercontent.com/dunckr/sketch-subtlepatterns/master/assets/example.png",
         "overview": "Import subtle patterns as shape fills."
+    },{
+        "name": "Sketch i18n",
+        "url": "https://github.com/kristof/sketch-i18n",
+        "author": {
+            "name": "Kristof Houben",
+            "url": "http://twitter.com/houbenkristof"
+        },
+        "image": "",
+        "expand": true,
+        "overview": "Translate pages in Sketch.",
+        "description": "Sketch i18n enables you to generate translation files for a page and translate it. It acts in a non-destructive way so you can easily undo your changes later."
     }]
 }
