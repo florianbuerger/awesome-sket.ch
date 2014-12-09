@@ -243,5 +243,15 @@
         "expand": true,
         "overview": "Translate pages in Sketch.",
         "description": "Sketch i18n enables you to generate translation files for a page and translate it. It acts in a non-destructive way so you can easily undo your changes later."
+    },{
+        "name": "Sketch Vertical Teleporter",
+        "url": "https://github.com/wolanski/sketch-vertical-teleporter",
+        "author": {
+            "name": "Gregory Wolanski",
+            "url": "http://wolanski.name"
+        },
+        "image": "",
+        "expand": true,
+        "overview": "Moves selected layers vertically according to the cursor position."
     }]
 }
