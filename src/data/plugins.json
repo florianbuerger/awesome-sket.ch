@@ -1,5 +1,13 @@
 {
     "plugins": [{
+        "name": "Sketch to Xcode assets catalog",
+        "url": "https://github.com/GeertWille/sketch-to-xcode-assets-catalog",
+        "author": {
+          "name": "Geert Wille",
+          "url": "and links to this url"
+        },
+        "overview": "A Sketch plugin that allows to export assets for iOS directly from Sketch into Xcodes assets catalog"
+    },{
         "name": "AEIconizer",
         "url": "https://github.com/tadija/AEIconizer",
         "author": {
