@@ -268,7 +268,7 @@
           "name": "Peter Strömberg",
           "url": "https://github.com/PEZ"
         },
-        "image": "https://github.com/PEZ/SketchDistributor/blob/master/distribution.png",
+        "image": "https://raw.githubusercontent.com/PEZ/SketchDistributor/master/distribution.png",
         "expand": true,
         "overview": "Distributes selected objects vertically or horizontally with a specified spacing.",
         "description": "The Sketch app allows you to distribute selected objects evenly, which is very handy. But sometimes you just want the objects distributed with a fixed spacing and that's when you turn to SketchDistributor."
