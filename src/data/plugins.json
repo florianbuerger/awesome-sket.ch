@@ -8,6 +8,16 @@
         },
         "overview": "A Sketch plugin that allows to export assets for iOS directly from Sketch into Xcodes assets catalog"
     },{
+        "name": "Marvel Sketch",
+        "url": "https://github.com/marvelapp/marvel-sketch",
+        "author": {
+            "name": "Marvel App",
+            "url": "https://marvelapp.com/prototype-with-sketch"
+        },
+        "image": "http://i.imgur.com/O7VuNhD.png",
+        "overview": "Export your artboards to your Marvel prototypes.",
+        "description": "Create a project on Marvelapp.com and send your artboards to Marvel, link screens together by adding hotspot. After you made your prototype you can update your artboards at any time."
+    },{
         "name": "AEIconizer",
         "url": "https://github.com/tadija/AEIconizer",
         "author": {
