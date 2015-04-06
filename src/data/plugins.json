@@ -1,5 +1,15 @@
 {
     "plugins": [{
+        "name": "SketchingOn",
+        "url": "https://github.com/WorkingOn/SketchingOn",
+        "author": {
+          "name": "WorkingOn",
+          "url": "http://workingon.co"
+        },
+        "image": "http://static.workingon.co/SketchingOn@2x.png",
+        "overview": "Quickly select and share work in progress with your team via WorkingOn.",
+        "description": "SketchingOn aims to take the pain out of sharing your work as you make progress.  \n\nSimply hit **cmd + l** to share to [WorkingOn](http://workingon.co) and any connected services, like [Slack](http://slack.com) or [HipChat](http://hipchat.com).  \n\nImages are automatically embedded in Slack: \n\n ![SketchingOn Example](http://static.workingon.co/sketchingon-slack-example.png)    \n\n\n\nYou can [learn more on GitHub.](https://github.com/WorkingOn/SketchingOn)  \n\n Please feel free to reach out to the authors and let them know what you think at [hello@workingon.co](mailto:hello@workingon.co)."
+    },{
         "name": "Sketch to Xcode assets catalog",
         "url": "https://github.com/GeertWille/sketch-to-xcode-assets-catalog",
         "author": {
