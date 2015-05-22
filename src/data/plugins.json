@@ -1,5 +1,15 @@
 {
     "plugins": [{
+        "name": "Markly",
+        "url": "http://marklyapp.com",
+        "author": {
+          "name": "Markly Team",
+          "url": "http://marklyapp.com"
+        },
+        "image": "http://marklyapp.com/docs/images/update-specs-step1.png",
+        "overview": "Easily create design specs for Photoshop & Sketch",
+        "description": "Markly is a measure and design spec plugin/extension for Photoshop & Sketch.  \n\nIt is made for modern web designers & app front-end developers.  \n\nYou can add specification marks by simple clicking and dragging. Coordinate, dimensions, distance or fonts, no matter what and where you want."
+    },{
         "name": "SketchingOn",
         "url": "https://github.com/WorkingOn/SketchingOn",
         "author": {
