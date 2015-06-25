@@ -1,5 +1,15 @@
 {
     "plugins": [{
+        "name": "Sketch Financial Data Generator",
+        "url": "http://thetylerwolf.github.io/sketchfindatagen/",
+        "author": {
+          "name": "Tyler Wolf",
+          "url": "http://www.tylernwolf.com"
+        },
+        "image": "https://github.com/thetylerwolf/sketchfindatagen/blob/screenshots/screenshots/screenshot_dashboard.png?raw=true",
+        "overview": "Automatically generate charts and data tables with real numbers in Sketch",
+        "description": "The Sketch Financial Data Generator is useful for much more than financial data. Generate line charts, bar charts and a variety of data tables. \n\n The plugin is regularly improved to meet user needs."
+    },{
         "name": "Markly",
         "url": "http://marklyapp.com",
         "author": {
