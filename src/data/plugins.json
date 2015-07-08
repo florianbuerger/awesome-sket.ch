@@ -1,14 +1,14 @@
 {
     "plugins": [{
-        "name": "Sketch Financial Data Generator",
-        "url": "http://thetylerwolf.github.io/sketchfindatagen/",
+        "name": "Sketch Data Studio",
+        "url": "http://thetylerwolf.github.io/sketch-data-studio/",
         "author": {
           "name": "Tyler Wolf",
           "url": "http://www.tylernwolf.com"
         },
-        "image": "https://github.com/thetylerwolf/sketchfindatagen/blob/screenshots/screenshots/screenshot_dashboard.png?raw=true",
-        "overview": "Automatically generate charts and data tables with real numbers in Sketch",
-        "description": "The Sketch Financial Data Generator is useful for much more than financial data. Generate line charts, bar charts and a variety of data tables. \n\n The plugin is regularly improved to meet user needs."
+        "image": "https://github.com/thetylerwolf/sketch-data-studio/blob/screenshots/screenshots/sketch_data_studio_image.png?raw=true",
+        "overview": "Automatically generate charts and data tables with real numbers in Sketch. Import directly from CSV files.",
+        "description": "Sketch Data Studio is useful for designers who want to design with real data and data scientists who want to quickly generate easily-customizable charts. Generate line charts, bar charts and a variety of data tables. \n\n The plugin is regularly improved to meet user needs."
     },{
         "name": "Markly",
         "url": "http://marklyapp.com",
