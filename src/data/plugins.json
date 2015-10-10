@@ -1,5 +1,14 @@
 {
     "plugins": [{
+        "name": "Sharpen Images",
+        "url": "https://github.com/axmsv/sharpen-images-sketch/",
+        "author": {
+          "name": "Alexey Masalov",
+          "url": "http://axmsv.com"
+        },
+        "overview": "Sharpen your image layers in Sketch without leaving the app",
+        "description": "Sharpen Images is powerful plugin that allows you to apply Unsharp Mask filter to image layers in Sketch."
+    },{
         "name": "Sketch Data Studio",
         "url": "http://thetylerwolf.github.io/sketch-data-studio/",
         "author": {
