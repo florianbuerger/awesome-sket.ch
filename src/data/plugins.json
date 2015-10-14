@@ -1,5 +1,15 @@
 {
     "plugins": [{
+        "name": "RightFont",
+        "url": "http://rightfontapp.com",
+        "author": {
+          "name": "Markly Team",
+          "url": "http://marklyapp.com"
+        },
+        "image": "http://rightfontapp.com/images/rightfont_submit.png",
+        "overview": "RightFont is a brand new font manager app for Mac OS X, helping designers to preview, sync, install and manage fonts on your Mac or Dropbox/Google Drive.",
+        "description": "RightFont also added font organization functionality for Adobe Photoshop, Illustrator, Sketch, etc, and provides auto font activation feature for Adobe Photoshop & Sketch documents."
+    },{
         "name": "Sharpen Images",
         "url": "https://github.com/axmsv/sharpen-images-sketch/",
         "author": {
