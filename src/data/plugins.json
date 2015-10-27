@@ -1,5 +1,54 @@
 {
     "plugins": [{
+        "name": "Pixel Perfecter",
+        "url": "https://github.com/swiadek/pixel-perfecter-sketch-plugin",
+        "author": {
+          "name": "Jakub Świadek",
+          "url": "http://swiadek.org"
+        },
+        "image": "",
+        "expand": true,
+        "overview": "Pixel Perfecter is a plugin that helps you find pixel imperfect layers in your documents."
+    },{
+        "name": "RightFont",
+        "url": "http://rightfontapp.com",
+        "author": {
+          "name": "Markly Team",
+          "url": "http://marklyapp.com"
+        },
+        "image": "http://rightfontapp.com/images/rightfont_submit.png",
+        "overview": "RightFont is a brand new font manager app for Mac OS X, helping designers to preview, sync, install and manage fonts on your Mac or Dropbox/Google Drive.",
+        "description": "RightFont also added font organization functionality for Adobe Photoshop, Illustrator, Sketch, etc, and provides auto font activation feature for Adobe Photoshop & Sketch documents."
+    },{
+        "name": "Sharpen Images",
+        "url": "https://github.com/axmsv/sharpen-images-sketch/",
+        "author": {
+          "name": "Alexey Masalov",
+          "url": "http://axmsv.com"
+        },
+        "overview": "Sharpen your image layers in Sketch without leaving the app",
+        "description": "Sharpen Images is powerful plugin that allows you to apply Unsharp Mask filter to image layers in Sketch."
+    },{
+        "name": "Sketch Data Studio",
+        "url": "http://thetylerwolf.github.io/sketch-data-studio/",
+        "author": {
+          "name": "Tyler Wolf",
+          "url": "http://www.tylernwolf.com"
+        },
+        "image": "https://github.com/thetylerwolf/sketch-data-studio/blob/screenshots/screenshots/sketch_data_studio_image.png?raw=true",
+        "overview": "Automatically generate charts and data tables with real numbers in Sketch. Import directly from CSV files.",
+        "description": "Sketch Data Studio is useful for designers who want to design with real data and data scientists who want to quickly generate easily-customizable charts. Generate line charts, bar charts and a variety of data tables. \n\n The plugin is regularly improved to meet user needs."
+    },{
+        "name": "Markly",
+        "url": "http://marklyapp.com",
+        "author": {
+          "name": "Markly Team",
+          "url": "http://marklyapp.com"
+        },
+        "image": "http://marklyapp.com/docs/images/update-specs-step1.png",
+        "overview": "Easily create design specs for Photoshop & Sketch",
+        "description": "Markly is a measure and design spec plugin/extension for Photoshop & Sketch.  \n\nIt is made for modern web designers & app front-end developers.  \n\nYou can add specification marks by simple clicking and dragging. Coordinate, dimensions, distance or fonts, no matter what and where you want."
+    },{
         "name": "SketchingOn",
         "url": "https://github.com/WorkingOn/SketchingOn",
         "author": {
@@ -292,5 +341,15 @@
         "expand": true,
         "overview": "Distributes selected objects vertically or horizontally with a specified spacing.",
         "description": "The Sketch app allows you to distribute selected objects evenly, which is very handy. But sometimes you just want the objects distributed with a fixed spacing and that's when you turn to SketchDistributor."
+    },{
+        "name": "Select Similar Layers",
+        "url": "https://github.com/wonderbit/sketch-select-similar-layers",
+        "author": {
+          "name": "Wes Roche",
+          "url": "https://github.com/wonderbit"
+        },
+        "image": "http://wessley.me/images/SelectSimilarLayersPlugin.png",
+        "expand": true,
+        "overview": "A plugin that selects layers with similar attributes to those of the layer currently selected."
     }]
 }
