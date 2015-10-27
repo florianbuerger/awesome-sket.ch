@@ -1,5 +1,15 @@
 {
     "plugins": [{
+        "name": "Pixel Perfecter",
+        "url": "https://github.com/swiadek/pixel-perfecter-sketch-plugin",
+        "author": {
+          "name": "Jakub Świadek",
+          "url": "http://swiadek.org"
+        },
+        "image": "",
+        "expand": true,
+        "overview": "Pixel Perfecter is a plugin that helps you find pixel imperfect layers in your documents."
+    },{
         "name": "RightFont",
         "url": "http://rightfontapp.com",
         "author": {
