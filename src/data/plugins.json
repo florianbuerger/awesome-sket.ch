@@ -1,5 +1,25 @@
 {
     "plugins": [{
+        "name": "ArtboardZoom",
+        "url": "https://github.com/Arkkimaagi/ArtboardZoom",
+        "author": {
+          "name": "Mikko Tapionlinna",
+          "url": "http://mikko.tapionlinna.fi/"
+        },
+        "image": "//github.com/Arkkimaagi/ArtboardZoom/raw/artwork/ArtboardZoom.png?raw=true",
+        "overview": "Tiny Sketch.app plugin for zooming to Artboard of currently selected object.",
+        "description": "Just press `cmd`+`4` to zoom into the closest Artboard parent of currently selected object."
+    },{
+        "name": "Pixel Perfecter",
+        "url": "https://github.com/swiadek/pixel-perfecter-sketch-plugin",
+        "author": {
+          "name": "Jakub Świadek",
+          "url": "http://swiadek.org"
+        },
+        "image": "",
+        "expand": true,
+        "overview": "Pixel Perfecter is a plugin that helps you find pixel imperfect layers in your documents."
+    },{
         "name": "RightFont",
         "url": "http://rightfontapp.com",
         "author": {
