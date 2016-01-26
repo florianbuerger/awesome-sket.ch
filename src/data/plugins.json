@@ -1,5 +1,16 @@
 {
     "plugins": [{
+        "name": "Qordoba for Sketch",
+        "url": "https://github.com/Qordobacode/qordoba-for-sketch",
+        "author": {
+          "name": "Qordoba",
+          "url": "https://www.qordoba.com/"
+        },
+        "image": "https://storage.googleapis.com/storage.qordoba.com/Downloading.gif",
+        "expand": true,
+        "overview": "Qordoba’s Sketch plugin allows designers to translate their mockups to other languages, making product internationalization easier.",
+        "description": "To upload a selected Page to Qordoba, go to Plugins → Qordoba → Upload Current Page to Qordoba. You will be asked to choose which Organization and Project within Qordoba you’d like to send the Page to, in case you are a member of multiple Organizations / Projects.If the Page has already been sent to same Project, a versioning suffix will be added to the end of the Page name within Qordoba."
+    },{
         "name": "ArtboardZoom",
         "url": "https://github.com/Arkkimaagi/ArtboardZoom",
         "author": {
