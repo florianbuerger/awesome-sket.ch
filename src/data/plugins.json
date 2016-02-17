@@ -11,6 +11,16 @@
         "overview": "Qordoba’s Sketch plugin allows designers to translate their mockups to other languages, making product internationalization easier.",
         "description": "To upload a selected Page to Qordoba, go to Plugins → Qordoba → Upload Current Page to Qordoba. You will be asked to choose which Organization and Project within Qordoba you’d like to send the Page to, in case you are a member of multiple Organizations / Projects.If the Page has already been sent to same Project, a versioning suffix will be added to the end of the Page name within Qordoba."
     },{
+        "name": "Golden Ratio Line Height",
+        "url": "https://github.com/lorenzwoehr/Golden-Ratio-Line-Height-Sketch-Plugin",
+        "author": {
+          "name": "Lorenz Wöhr",
+          "url": "http://lorenzwoehr.com/"
+        },
+        "image": "",
+        "overview": "Optimize your typography based on font size, line-height and width.",
+        "description": "Select one or more text layers. Then run `Plugins` > `Golden Line Height` or use `cmd` + `L`."
+    },{
         "name": "ArtboardZoom",
         "url": "https://github.com/Arkkimaagi/ArtboardZoom",
         "author": {
