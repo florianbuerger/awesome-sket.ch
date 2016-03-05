@@ -382,5 +382,15 @@
         "image": "http://wessley.me/images/SelectSimilarLayersPlugin.png",
         "expand": true,
         "overview": "A plugin that selects layers with similar attributes to those of the layer currently selected."
+    },{
+        "name": "Sketch Navigator",
+        "url": "https://github.com/arshad/Sketch-Navigator",
+        "author": {
+          "name": "Arshad Chummun",
+          "url": "https://github.com/arshad"
+        },
+        "image": "http://i.imgur.com/Xu8vAKD.gif",
+        "expand": true,
+        "overview": "Artboard navigation (with autocomplete) for Sketch."
     }]
 }
