@@ -399,7 +399,7 @@
           "name": "PixelCut",
           "url": "https://twitter.com/PixelCutCompany"
         },
-        "image": "assets/img/pixelcut.png",
+        "image": "/assets/img/paintcode-plugin.png",
         "expand": false,
         "overview": "Allows you to generate **Swift or Objective-C** code from your Artboards and Slices for easy integration in your iOS application.",
         "description": "You can select which Artboards and Slices will be exported into a _StyleKit_ class in a form of drawing methods and image methods. _StyleKit_ also provides global colors, gradient, and shadows from Artboard named _Library_ to be used in all UIKit components. See more on YouTube."
