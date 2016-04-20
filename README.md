@@ -23,7 +23,7 @@ To add new plugins, look at [`src/data/plugins.json`](src/data/plugins.json). Al
     "expand": true,
     "overview": "A short description",
     "description": "A longer description displayed below the first paragraph. You can use markdown syntax to add links, bold, headlines etc."
-  }
+  }]
 }
 
 ````
