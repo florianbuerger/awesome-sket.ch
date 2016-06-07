@@ -1,5 +1,26 @@
 {
     "plugins": [{
+        "name": "Qordoba for Sketch",
+        "url": "https://github.com/Qordobacode/qordoba-for-sketch",
+        "author": {
+          "name": "Qordoba",
+          "url": "https://www.qordoba.com/"
+        },
+        "image": "https://storage.googleapis.com/storage.qordoba.com/Downloading.gif",
+        "expand": true,
+        "overview": "Qordoba’s Sketch plugin allows designers to translate their mockups to other languages, making product internationalization easier.",
+        "description": "To upload a selected Page to Qordoba, go to Plugins → Qordoba → Upload Current Page to Qordoba. You will be asked to choose which Organization and Project within Qordoba you’d like to send the Page to, in case you are a member of multiple Organizations / Projects.If the Page has already been sent to same Project, a versioning suffix will be added to the end of the Page name within Qordoba."
+    },{
+        "name": "Golden Ratio Line Height",
+        "url": "https://github.com/lorenzwoehr/Golden-Ratio-Line-Height-Sketch-Plugin",
+        "author": {
+          "name": "Lorenz Wöhr",
+          "url": "http://lorenzwoehr.com/"
+        },
+        "image": "",
+        "overview": "Optimize your typography based on font size, line-height and width.",
+        "description": "Select one or more text layers. Then run `Plugins` > `Golden Line Height` or use `cmd` + `L`."
+    },{
         "name": "ArtboardZoom",
         "url": "https://github.com/Arkkimaagi/ArtboardZoom",
         "author": {
@@ -361,5 +382,36 @@
         "image": "http://wessley.me/images/SelectSimilarLayersPlugin.png",
         "expand": true,
         "overview": "A plugin that selects layers with similar attributes to those of the layer currently selected."
+    },{
+        "name": "Sketch Navigator",
+        "url": "https://github.com/arshad/Sketch-Navigator",
+        "author": {
+          "name": "Arshad Chummun",
+          "url": "https://github.com/arshad"
+        },
+        "image": "http://i.imgur.com/Xu8vAKD.gif",
+        "expand": true,
+        "overview": "Artboard navigation (with autocomplete) for Sketch."
+    },{
+        "name": "PaintCode for Sketch",
+        "url": "http://www.paintcodeapp.com/sketch",
+        "author": {
+          "name": "PixelCut",
+          "url": "https://twitter.com/PixelCutCompany"
+        },
+        "image": "/assets/img/paintcode-plugin.png",
+        "expand": false,
+        "overview": "Allows you to generate **Swift or Objective-C** code from your Artboards and Slices for easy integration in your iOS application.",
+        "description": "You can select which Artboards and Slices will be exported into a _StyleKit_ class in a form of drawing methods and image methods. _StyleKit_ also provides global colors, gradient, and shadows from Artboard named _Library_ to be used in all UIKit components. See more [on YouTube](https://www.youtube.com/watch?v=GT9yGoUHJus)."
+    },{
+        "name": "ScreenFork",
+        "url": "https://github.com/screenfork/ScreenFork",
+        "author": {
+          "name": "ScreenFork",
+          "url": "https://github.com/screenfork"
+        },
+        "image": "https://raw.githubusercontent.com/screenfork/ScreenFork/master/images/variant_1.png",
+        "expand": false,
+        "overview": "Sketchapp plugin that exports screen and their variants based on the layer prefix."
     }]
 }
