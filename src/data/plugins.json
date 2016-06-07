@@ -403,5 +403,15 @@
         "expand": false,
         "overview": "Allows you to generate **Swift or Objective-C** code from your Artboards and Slices for easy integration in your iOS application.",
         "description": "You can select which Artboards and Slices will be exported into a _StyleKit_ class in a form of drawing methods and image methods. _StyleKit_ also provides global colors, gradient, and shadows from Artboard named _Library_ to be used in all UIKit components. See more [on YouTube](https://www.youtube.com/watch?v=GT9yGoUHJus)."
+    },{
+        "name": "ScreenFork",
+        "url": "https://github.com/screenfork/ScreenFork",
+        "author": {
+          "name": "ScreenFork",
+          "url": "https://github.com/screenfork"
+        },
+        "image": "https://raw.githubusercontent.com/screenfork/ScreenFork/master/images/variant_1.png",
+        "expand": false,
+        "overview": "Sketchapp plugin that exports screen and their variants based on the layer prefix."
     }]
 }
