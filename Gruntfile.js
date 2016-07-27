@@ -100,20 +100,6 @@ module.exports = function(grunt) {
       }
     },
 
-    imagemin: {
-      static: {
-        options: {
-          optimizationLevel: 3
-        },
-        files: [{
-          expand: true,
-          cwd: '<%= config.src %>/assets/img',
-          src: ['**/*.{png,jpg,gif}'],
-          dest: '<%= config.dist %>/assets/img'
-        }]
-      }
-    },
-
     // Before generating any new files,
     // remove any previously-created files.
     clean: ['<%= config.dist %>/**/*.{html,xml,css}']
@@ -140,7 +126,6 @@ module.exports = function(grunt) {
     'clean',
     'sass',
     'assemble',
-    'imagemin'
   ]);
 
   grunt.registerTask('default', [
