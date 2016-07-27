@@ -420,7 +420,7 @@
           "name": "Pavel Laptev",
           "url": "http://dariographics.com/"
         },
-        "image": "lazy-exportable.png",
+        "image": "/assets/img/lazy-exportable.png",
         "expand": false,
         "overview": "Plugin wich make layers exportable by type like groups, shapes, symbols, text layers, bitmaps. Also manually by name and suffix"
     }]
