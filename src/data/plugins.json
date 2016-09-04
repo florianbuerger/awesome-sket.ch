@@ -21,6 +21,17 @@
         "overview": "Optimize your typography based on font size, line-height and width.",
         "description": "Select one or more text layers. Then run `Plugins` > `Golden Line Height` or use `cmd` + `L`."
     },{
+        "name": "Sketch Action",
+        "url": "https://github.com/onmyway133/Sketch-Action",
+        "author": {
+          "name": "Khoa Pham",
+          "url": "https://github.com/onmyway133"
+        },
+        "image": "https://github.com/onmyway133/Sketch-Action/raw/master/Screenshots/sketch-action.gif",
+        "overview": "Spotlight in Sketch",
+        "description": "Press cmd + ctrl + o to open"
+    },
+    {
         "name": "ArtboardZoom",
         "url": "https://github.com/Arkkimaagi/ArtboardZoom",
         "author": {
