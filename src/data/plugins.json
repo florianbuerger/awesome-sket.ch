@@ -1,5 +1,16 @@
 {
     "plugins": [{
+        "name": "Sketch CodeFlow",
+        "url": "http://www.sketchcodeflow.com",
+        "author": {
+          "name": "POP POP LLC",
+          "url": "https://www.sketchcodeflow.com/"
+        },
+        "image": "https://cloud.githubusercontent.com/assets/13230597/18562816/2f615c52-7b3a-11e6-800b-064350e11320.png",
+        "expand": true,
+        "overview": "Sketch CodeFlow turns artboards into code, along with several other useful features.",
+        "description": "Version 1.0 turns artboards into only iOS Objective-C UIKit code. Swift, SpriteKit, OSX, Android, and more to come!"
+    },{
         "name": "Qordoba for Sketch",
         "url": "https://github.com/Qordobacode/qordoba-for-sketch",
         "author": {
