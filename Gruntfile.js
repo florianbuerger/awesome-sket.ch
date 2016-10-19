@@ -129,9 +129,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-imagemin');
 
   grunt.registerTask('server', [
-    'clean',
-    'assemble',
-    'sass',
+    'build',
     'connect:livereload',
     'watch'
   ]);
