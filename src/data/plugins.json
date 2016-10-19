@@ -455,5 +455,15 @@
         "image": "https://i.imgur.com/XMp1L5R.gif",
         "expand": false,
         "overview": "A Sketch plugin that lets you import & export text styles throughout different Sketch documents."
+    },{
+        "name": "Swift Color Palette",
+        "url": "https://github.com/nahitheper/SwiftColorPalette",
+        "author": {
+          "name": "Nahit Rüştü HEPER",
+          "url": "https://github.com/nahitheper/"
+        },
+        "image": "/assets/img/SwiftColorPalette.gif",
+        "expand": false,
+        "overview": "A SketchApp plugin that making color palette an enum in other words generates Swift Color Theme files from your Sketch documents."
     }]
 }
