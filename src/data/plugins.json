@@ -1,5 +1,15 @@
 {
     "plugins": [{
+        "name": "Nudged",
+        "url": "https://github.com/KevinWoodhouse/sketch-nudged",
+        "author": {
+          "name": "Kevin Woodhouse",
+          "url": "http://www.kevinwoodhouse.com/?ref=awesome-sket.ch"
+        },
+        "image": "https://raw.githubusercontent.com/kevinwoodhouse/sketch-Nudged/master/sketch-nudged-hero.png",
+        "expand": false,
+        "overview": "A Sketch plugin to easily edit your nudge distance settings."
+    },{
         "name": "Sketch CodeFlow",
         "url": "http://www.sketchcodeflow.com",
         "author": {
