@@ -1,5 +1,15 @@
 {
     "plugins": [{
+        "name": "Cloudstitch",
+        "url": "https://github.com/cloudstitch/cloudstitch-sketch-plugin",
+        "author": {
+          "name": "Ted Benson",
+          "url": "http://www.edwardbenson.com/?ref=awesome-sket.ch"
+        },
+        "image": "https://static.cloudstitch.com/img/assets/cloudstitch-sketch-plugin.png",
+        "expand": false,
+        "overview": "Fill your designs with live spreadsheet data from GSheets and Excel."
+    },{
         "name": "Nudged",
         "url": "https://github.com/KevinWoodhouse/sketch-nudged",
         "author": {
