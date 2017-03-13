@@ -1,5 +1,38 @@
 {
     "plugins": [{
+        "name": "PDF Export",
+        "url": "https://github.com/DWilliames/PDF-export-sketch-plugin",
+        "author": {
+          "name": "David Williames",
+          "url": "http://davew.io/?ref=awesome-sket.ch"
+        },
+        "image": "https://github.com/DWilliames/PDF-export-sketch-plugin/raw/master/images/pdf-export.png",
+        "expand": true,
+        "overview": "Export all pages, current page or selected pages into a PDF document",
+        "description": "You can also export artboards into a PDF as PNGs, and ignore artboards/pages based on a specified prefix. It is also optional to include Symbol Master artboards in the export."
+    },{
+        "name": "Nudge Corner Radius",
+        "url": "https://github.com/DWilliames/nudge-corner-radius-sketch-plugin",
+        "author": {
+          "name": "David Williames",
+          "url": "http://davew.io/?ref=awesome-sket.ch"
+        },
+        "image": "https://github.com/DWilliames/nudge-corner-radius-sketch-plugin/raw/master/images/nudge-radius-preview.gif",
+        "expand": true,
+        "overview": "Sketch Plugin to quickly change the corner radius of a layer through easy keyboard shortcuts.",
+        "description": "Sometimes using keyboard shortcut are much easy than manipulating sliders with the mouse. Even if the values of the layer's corner radius differ — this plugin will respect that. e.g. 5;10;20;10. When editing any shape layer, the shortcut also works for nodes that have been selected! You can also change more than one selected layer at once! Talk about efficiency."
+    },{
+        "name": "Nudge Resize",
+        "url": "https://github.com/DWilliames/nudge-resize-sketch-plugin",
+        "author": {
+          "name": "David Williames",
+          "url": "http://davew.io/?ref=awesome-sket.ch"
+        },
+        "image": "https://github.com/DWilliames/nudge-resize-sketch-plugin/raw/master/images/gifs/expandHorizontally.gif",
+        "expand": false,
+        "overview": "Sketch Plugin to quickly resize the width and height of a layer through easy keyboard shortcuts.",
+        "description": "Similar to holding 'alt' whilst resizing with the mouse; 'Nudge Resize' works the same."
+    },{
         "name": "Cloudstitch",
         "url": "https://github.com/cloudstitch/cloudstitch-sketch-plugin",
         "author": {
