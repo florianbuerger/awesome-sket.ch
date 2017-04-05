@@ -1,5 +1,16 @@
 {
     "plugins": [{
+       "name": "Nudge, Push, Shove.",
+       "url": "http://www.nudgepushshove.com",
+       "author": {
+         "name": "Michael Fouquet",
+         "url": "http://twitter.com/_fookay"
+       },
+       "image": "assets/img/nudgepushshove.png",
+       "expand": false,
+       "overview": "Quickly change the big and small nudge settings and gain access to a new, bigger nudge setting.",
+       "description": "Bring up a menu and change any of the three nudge settings to whatever you want. Sketch Runner support makes changing to predefined 16px grid options a snap."
+    },{
         "name": "PDF Export",
         "url": "https://github.com/DWilliames/PDF-export-sketch-plugin",
         "author": {
