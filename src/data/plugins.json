@@ -17,7 +17,7 @@
           "name": "Sures Kumar",
           "url": "http://www.sureskumar.com/"
         },
-        "image": "sureskumar.com/looper/github_imgs/looper_sketch_plugin_1024.jpg",
+        "image": "http://sureskumar.com/looper/github_imgs/looper_sketch_plugin_1024.jpg",
         "expand": true,
         "overview": "Duplicate, Rotate and Scale the smart way.",
         "description": "Looper helps automate duplication of groups and layers. One can control properties like Rotate, Scale and Opacity while duplicating. This powerful combination enables artists and designers to create interesting geometric and organic patterns."
