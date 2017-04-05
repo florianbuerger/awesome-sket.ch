@@ -11,6 +11,17 @@
        "overview": "Quickly change the big and small nudge settings and gain access to a new, bigger nudge setting.",
        "description": "Bring up a menu and change any of the three nudge settings to whatever you want. Sketch Runner support makes changing to predefined 16px grid options a snap."
     },{
+        "name": "Looper",
+        "url": "http://www.sureskumar.com/looper",
+        "author": {
+          "name": "Sures Kumar",
+          "url": "http://www.sureskumar.com/"
+        },
+        "image": "sureskumar.com/looper/github_imgs/looper_sketch_plugin_1024.jpg",
+        "expand": true,
+        "overview": "Duplicate, Rotate and Scale the smart way.",
+        "description": "Looper helps automate duplication of groups and layers. One can control properties like Rotate, Scale and Opacity while duplicating. This powerful combination enables artists and designers to create interesting geometric and organic patterns."
+    },{
         "name": "PDF Export",
         "url": "https://github.com/DWilliames/PDF-export-sketch-plugin",
         "author": {
