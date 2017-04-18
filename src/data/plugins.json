@@ -1,5 +1,39 @@
 {
     "plugins": [{
+        "name": "Foreign Ipsum ",
+        "url": "https://github.com/3raxton/ForeignIpsum",
+        "author": {
+          "name": "Braxton Huff",
+          "url": "http://www.braxtonhuff.com/",
+          "twitter": "https://twitter.com/3raxton"
+        },
+        "image": "https://lh3.googleusercontent.com/8dePrAML-XQWWuF90WOdJUsr2IpORcleDNvVyMO-wyNnDWrGH5g2DHHFQsYBCe1S6eTtOYMZ0XQMDEgG=s1600",
+        "expand": true,
+        "overview": "Generate text for your mockups in multiple languages.",
+        "description": "Generate text for your mockups that has nothing to do with anything in a multitude of languages"
+   },{
+       "name": "Nudge, Push, Shove.",
+       "url": "http://www.nudgepushshove.com",
+       "author": {
+         "name": "Michael Fouquet",
+         "url": "http://twitter.com/_fookay"
+       },
+       "image": "assets/img/nudgepushshove.png",
+       "expand": false,
+       "overview": "Quickly change the big and small nudge settings and gain access to a new, bigger nudge setting.",
+       "description": "Bring up a menu and change any of the three nudge settings to whatever you want. Sketch Runner support makes changing to predefined 16px grid options a snap."
+    },{
+        "name": "Looper",
+        "url": "http://www.sureskumar.com/looper",
+        "author": {
+          "name": "Sures Kumar",
+          "url": "http://www.sureskumar.com/"
+        },
+        "image": "http://sureskumar.com/looper/github_imgs/looper_sketch_plugin_1024.jpg",
+        "expand": true,
+        "overview": "Duplicate, Rotate and Scale the smart way.",
+        "description": "Looper helps automate duplication of groups and layers. One can control properties like Rotate, Scale and Opacity while duplicating. This powerful combination enables artists and designers to create interesting geometric and organic patterns."
+    },{
         "name": "PDF Export",
         "url": "https://github.com/DWilliames/PDF-export-sketch-plugin",
         "author": {
