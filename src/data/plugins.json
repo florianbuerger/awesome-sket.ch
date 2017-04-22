@@ -1,5 +1,16 @@
 {
     "plugins": [{
+        "name": "Stark",
+        "url": "https://getstark.co",
+        "author": {
+          "name": "Michael Fouquet, Cat Noone, Benedikt Lehnert",
+          "url": "http://twitter.com/_fookay"
+        },
+        "image": "assets/img/stark-logo.png",
+        "expand": false,
+        "overview": "Ensure your design is accessible and high contrast for every type of color blindness.",
+        "description": "Easily check your designs against the 8 different types of colorblindness. In addition, run a pair of colors against WCAG 2.0 contrast standards."
+   },{
         "name": "Foreign Ipsum ",
         "url": "https://github.com/3raxton/ForeignIpsum",
         "author": {
