@@ -1,5 +1,16 @@
 {
     "plugins": [{
+        "name": "Super Shapes",
+        "url": "https://github.com/sureskumar/super-shapes",
+        "author": {
+          "name": "Sures Kumar",
+          "url": "http://www.sureskumar.com"
+        },
+        "image": "http://www.sureskumar.com/supershapes/github_imgs/supershapes_04.jpg",
+        "expand": false,
+        "overview": "Super shapes is a sketch plugin that generates complex organic super-shapes using super formula.",
+        "description": "Super shapes creates regular sketch shapes that you can alter later as you wish."
+   },{
         "name": "Stark",
         "url": "https://getstark.co",
         "author": {
