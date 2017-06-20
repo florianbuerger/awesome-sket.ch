@@ -6,7 +6,7 @@
           "name": "Sures Kumar",
           "url": "http://www.sureskumar.com"
         },
-        "image": "http://www.sureskumar.com/palette-stripes/github_imgs/palettestripes_003_888.jpg",
+        "image": "http://www.sureskumar.com/palettestripes/github_imgs/palettestripes_003_888.jpg",
         "expand": false,
         "overview": "Sketch plugin to generate palette stripes from shape fills.",
         "description": "Minimum and maximum width of the stripes can be controlled."
