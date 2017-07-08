@@ -1,5 +1,15 @@
 {
     "plugins": [{
+        "name": "Single Border",
+        "url": "https://github.com/sureskumar/single-border",
+        "author": {
+          "name": "Sures Kumar",
+          "url": "http://www.sureskumar.com"
+        },
+        "image": "http://www.sureskumar.com/singleborder/github_imgs/sketch_single_border_01.jpg",
+        "expand": false,
+        "overview": "Add single borders in Sketch App with advanced controls."
+   },{
         "name": "Palette Stripes",
         "url": "https://github.com/sureskumar/palette-stripes",
         "author": {
