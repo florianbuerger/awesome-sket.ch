@@ -1,5 +1,16 @@
 {
     "plugins": [{
+        "name": "Images Reinvented",
+        "url": "https://github.com/roydigerhund/Images-Reinvented",
+        "author": {
+          "name": "Matthias Martin",
+          "url": "http://matzemachtdesign.de"
+        },
+        "image": "https://raw.githubusercontent.com/roydigerhund/Images-Reinvented/master/Docs/Thumbnail.png",
+        "expand": false,
+        "overview": "A better way to use images in Sketch.",
+        "description": "Images Reinvented gives you full control over your images with a single click. It creates a group which contains your image and a mask."
+   },{
         "name": "Single Border",
         "url": "https://github.com/sureskumar/single-border",
         "author": {
