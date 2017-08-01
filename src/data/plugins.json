@@ -606,5 +606,15 @@
         "image": "/assets/img/SwiftColorPalette.gif",
         "expand": false,
         "overview": "A SketchApp plugin that making color palette an enum in other words generates Swift Color Theme files from your Sketch documents."
+    }{
+        "name": "Find And Replace (Sketch-Find-And-Replace)",
+        "url": "https://github.com/thierryc/Sketch-Find-And-Replace",
+        "author": {
+          "name": "Created by Martin Steven - @mscodemonkey, Updated by Thierry Charbonnel @thierryc ",
+          "url": "https://github.com/thierryc/"
+        },
+        "image": "/assets/img/Sketch-Find-And-Replace.gif",
+        "expand": false,
+        "overview": "Finds text in selected layer(s) and all layers contained within - and replaces it with different text. Features partial, case sensitive and full-document matching."
     }]
 }
