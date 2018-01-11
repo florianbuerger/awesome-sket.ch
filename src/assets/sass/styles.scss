@@ -54,14 +54,6 @@ html {
   font-size: 100%;
   height: 100%;
 }
-@include breakpoint(medium) {
-  font-size: 112%;
-  line-height: 112%;
-}
-@include breakpoint(large) {
-  font-size: 120%;
-  line-height: 120%;
-}
 
 .container {
   margin: 0 auto;
@@ -75,6 +67,7 @@ body {
   font-family: $sans-serif;
   color: $body-text-color;
   background-color: $body-background-color;
+  line-height: 150%;
 }
 .main {
   display: table;
