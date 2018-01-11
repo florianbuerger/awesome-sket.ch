@@ -1,5 +1,15 @@
 {
     "plugins": [{
+        "name": "FontRapid",
+        "url": "https://fontrapid.com",
+        "author": {
+          "name": "FontRapid Team",
+          "url": "https://fontrapid.com"
+        },
+        "image": "https://fontrapid.com/images/introducing-cover.jpg",
+        "overview": "Free Font Creation / Maker plugin for Sketch",
+        "description": "[FontRapid](https://fontrapid.com) is a free Sketch plugin, helps designers create professional OpenType fonts with ease directly in Sketch app. \n\nThe output font can be used for print, web and mobile, and sold to anyone with no limit (both free and commercial use). \n\n Please feel free to reach out to the authors and let them know what you think at [team@fontrapid.com](mailto:team@fontrapid.com)."
+    },{
         "name": "Images Reinvented",
         "url": "https://github.com/roydigerhund/Images-Reinvented",
         "author": {
