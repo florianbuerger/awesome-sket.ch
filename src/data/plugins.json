@@ -626,5 +626,16 @@
         "image": "/assets/img/Sketch-Find-And-Replace.png",
         "expand": false,
         "overview": "Finds text in selected layer(s) and all layers contained within - and replaces it with different text. Features partial, case sensitive and full-document matching."
-    }]
+    }, {
+        "name": "Language-Sketch-Plugin",
+        "url": "https://github.com/hoai265/Language-Sketch-Plugin",
+        "author": {
+          "name": "Hoai Nguyen",
+          "url": "https://github.com/hoai265"
+        },
+        "image": "/assets/img/Language-Sketch-Plugin.gif",
+        "expand": true,
+        "overview": "A Sketch plugin for multi-language design",
+        "description": "You can generate, edit and translate your text content to multiple language."
+     }]
 }
