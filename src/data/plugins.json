@@ -633,7 +633,7 @@
           "name": "Hoai Nguyen",
           "url": "https://github.com/hoai265"
         },
-        "image": "https://github.com/hoai265/Language-Sketch-Plugin/blob/master/resource/Translate.gif",
+        "image": "/assets/img/Language-Sketch-Plugin.gif",
         "expand": true,
         "overview": "A Sketch plugin for multi-language design",
         "description": "You can generate, edit and translate your text content to multiple language."
