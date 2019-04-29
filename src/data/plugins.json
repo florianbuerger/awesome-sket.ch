@@ -637,5 +637,16 @@
         "expand": true,
         "overview": "A Sketch plugin for multi-language design",
         "description": "You can generate, edit and translate your text content to multiple language."
+     }, {
+         "name": "Mockplus iDoc",
+         "url": "https://idoc.mockplus.com/download/sketch",
+         "author": {
+             "name": "Mockplus",
+             "url": "https://idoc.mockplus.com"
+         },
+         "image": "assets/img/mockplus-idoc.png",
+         "expand": true,
+         "overview": "A Sketch plugin for design collaboration, including generating specs, cutting slices, note styles, and team management.",
+         "description": "A brand-new collaboration tool for designers and developers. It goes far beyond design and workflow—which allows designers to create a masterpiece. It allows you to upload your wireframes and visual designs from Photoshop, Adobe XD, and Sketch. With the plugins, it’s easy to add artboards in iDoc and handoff designs with accurate specs, assets, code snippets automatically."
      }]
 }
